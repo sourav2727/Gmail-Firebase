@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .mt-\[-19rem\] {
+  margin-top: -16rem;
+} */
+input::placeholder {
+  font-size: 14px; /* Adjust the font size as needed */
+}
+@media only screen and (max-width: 768px) {
+  input::placeholder {
+    font-size: 10px; /* Adjust the font size as needed */
+  }
+}
+
+.icon-small {
+  font-size: 14px;
+}
+
+.icon-medium {
+  font-size: 20px;
+}
+
+.icon-large {
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .icon-small {
+    font-size: 20px;
+  }
+
+  .icon-medium {
+    font-size: 24px;
+  }
+
+  .icon-large {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon-small {
+    font-size: 24px;
+  }
+
+  .icon-medium {
+    font-size: 28px;
+  }
+
+  .icon-large {
+    font-size: 32px;
+  }
+}
+
+
+.star-icon{
+  font-size:8px
+}
+.box-icon{
+  font-size:10px
+}
+
+@media (min-width:768px){
+  .star-icon{
+    font-size:14px
+  }
+  .box-icon{
+    font-size:20px
+  }
+}
